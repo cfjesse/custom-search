@@ -1,0 +1,21 @@
+table {
+  tr {
+
+    &.active {
+      background-color: rebeccapurple;
+      color: white;
+    }
+
+    td {
+      border: 1px solid grey;
+      padding: 8px;
+      min-width: 100px;
+    }
+
+    td.show {
+      opacity: 1;
+    }
+  }
+
+
+}
